@@ -1,15 +1,14 @@
 # kubectl-cf
 
-Faster way to switch between kubeconfigs (not contexts).
+切换 kubeconfig 配置文件 (不是切换 context)。
 
 ![demo.gif](https://github.com/spongeprojects/kubectl-cf/blob/main/assets/demo.gif?raw=true)
 
 ```
-Usage of kubectl-cf:
-
-  cf           Select kubeconfig interactively
-  cf [config]  Select kubeconfig directly
-  cf -         Switch to the previous kubeconfig
+kubectl-cf 使用说明:
+  cf           选择 kubeconfig
+  cf [config]  选择 kubeconfig (无交互)
+  cf -         切换到前一个使用的 kubeconfig
 ```
 
-This tool is designed to switch between kubeconfigs, if you want to switch between context within a single kubeconfig (or multiple kubeconfigs), you should use https://github.com/ahmetb/kubectx instead.
+备注：`kubectl-cf` 是用来切换 kubeconfig 配置文件的，如果你需要切换单个 kubeconfig（也可能是多个 kubeconfigs）当中的不同 context，推荐你使用 https://github.com/ahmetb/kubectx。
