@@ -1,6 +1,6 @@
 # kubectl-cf
 
-> Fork 自 https://github.com/spongeprojects/kubectl-cf，提供汉化。
+> Fork 自 https://github.com/spongeprojects/kubectl-cf, 提供汉化。
 
 切换 kubeconfig 配置文件 (不是切换 context)。
 
