@@ -1,16 +1,16 @@
 # Fork https://github.com/spongeprojects/kubectl-cf and edit this file to provide a new language translation!
 cfUsage: |
-  Usage of kubectl-cf:
-    cf           Select kubeconfig interactively
-    cf [config]  Select kubeconfig directly
-    cf -         Switch to the previous kubeconfig
-createSymlinkError: "Create symlink error: %s"
-helpActions: "j/k, up/down: select • enter: choose • q, esc: quit"
-kubeconfigEnvWarning: "WARNING: You should set KUBECONFIG=%s to make it work."
-moreThanOneMatchesFound: "More than 1 matches found: %s, can not determine: %s"
-noMatchFound: "No match found: %s"
-noPreviousKubeconfig: "No previous kubeconfig"
-symlinkNowPointTo: "%s is now symlink to %s"
-kubeconfigNotSymlink: "I'm sorry but %s must be a symlink to use kubectl-cf, please move it to other place like ~/.kube/default.kubeconfig"
-whatKubeconfig: "What kubeconfig you want to use?"
-wrongNumberOfArgumentExpect1: "Wrong number of arguments, expect 1"
+  kubectl-cf 使用说明:
+    cf           选择 kubeconfig
+    cf [config]  选择 kubeconfig (无交互)
+    cf -         切换到前一个使用的 kubeconfig
+createSymlinkError: "创建软链接失败: %s"
+helpActions: "j/k, up/down: 选择 • enter: 确认 • q, esc: 退出"
+kubeconfigEnvWarning: "警告: 需要将 KUBECONFIG 设置为 %s, kubectl-cf 才能正常工作"
+moreThanOneMatchesFound: "超过一个选项匹配: %s, 无法确定使用哪一个: %s"
+noMatchFound: "没有选项匹配: %s"
+noPreviousKubeconfig: "没有前一个 kubeconfig"
+symlinkNowPointTo: "%s 现在指向 %s"
+kubeconfigNotSymlink: "很抱歉, 要 kubectl-cf 正常工作, %s 需要是一个软链接, 请先把它移到其它地方, 比如 ~/.kube/default.kubeconfig"
+whatKubeconfig: "要用哪一个配置文件?"
+wrongNumberOfArgumentExpect1: "参数数量错误, 只允许传入 1 个参数"
