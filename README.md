@@ -1,8 +1,8 @@
 # kubectl-cf
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/wbsnail/kubectl-cf)](https://goreportcard.com/report/github.com/wbsnail/kubectl-cf)
-![](https://img.shields.io/github/license/wbsnail/kubectl-cf)
-![](https://img.shields.io/github/v/release/wbsnail/kubectl-cf)
+[![License](https://img.shields.io/github/license/wbsnail/kubectl-cf?color=blue)](https://github.com/wbsnail/kubectl-cf/blob/main/LICENSE)
+[![Releases](https://img.shields.io/github/v/release/wbsnail/kubectl-cf)](https://github.com/wbsnail/kubectl-cf/releases)
 
 > Fork 自 https://github.com/spongeprojects/kubectl-cf, 提供汉化。
 
