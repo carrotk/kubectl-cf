@@ -1,5 +1,6 @@
 # kubectl-cf
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/wbsnail/kubectl-cf)](https://goreportcard.com/report/github.com/wbsnail/kubectl-cf)
 ![](https://img.shields.io/github/license/wbsnail/kubectl-cf)
 ![](https://img.shields.io/github/v/release/wbsnail/kubectl-cf)
 
